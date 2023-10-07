@@ -19,12 +19,8 @@ int main(void)
 			putchar(' ');
 			putchar((NumComb2 / 10) + '0');
 			putchar((NumComb2 % 10) + '0');
-
-			if (NumComb1 < NumComb2 && NumComb1 != NumComb2)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			putchar(',');
+			putchar(' ');
 			NumComb2++;
 		}
 		NumComb1++;

@@ -8,7 +8,7 @@
 int main(void)
 {
 	int NumComb1 = 0;
-	int NumComb2 = 0;
+	int NumComb2 = 1;
 
 	while (NumComb1 <= 99)
 	{

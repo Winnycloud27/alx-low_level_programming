@@ -2,7 +2,7 @@
 
 /**
  * main - EntrNumComb2 point. A program that prints all possible
- * different combinations of three digits
+ * combinations of two two-digit numbers.
  * Return: 0 on success. End program
 */
 int main(void)

@@ -8,9 +8,9 @@ int _putchar(char c);
 int main(void)
 {
 	char alpha[] = "_putchar";
-    int i;
+	int i;
 
-	for (i = 0; i < 9; i++)
+	for (i = 0; i < 8; i++)
 		_putchar(alpha[i]);
 
 	_putchar('\n');

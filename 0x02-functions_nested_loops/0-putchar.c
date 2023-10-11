@@ -1,16 +1,18 @@
 #include "main.h"
 
+int _putchar(char c);
 /**
  * main - Will print _putchar using putchar function
  * Return: 0 on success. End program.
 */
 int main(void)
 {
-	char *alpha = "_putchar";
+	char alpha[] = "_putchar";
+    int i;
 
-	for (; *alpha != '\0'; *alpha++)
-		putchar(*alpha);
+	for (i = 0; i < 9; i++)
+		_putchar(alpha[i]);
 
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }

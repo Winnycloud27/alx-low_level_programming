@@ -1,6 +1,8 @@
 #include "main.h"
-int _putchar(char c);
 
+/**
+ * print_alphabet - It will print alphabets.
+ */
 void print_alphabet(void)
 {
 	char alpha;

@@ -5,16 +5,15 @@
  */
 void print_alphabet_x10(void)
 {
-	char *letters = "abcdefghijklmnopqrstuvwxyz";
-	char i = 0;
+	char i;
+	char letters;
 
-	for (; i < 10; i++)
+	for (i = 0; i < 10; i++)
 	{
-		for (; *letters != '\0'; letters++)
+		for (letters = 'a'; letters <= 'z'; letters++)
 		{
-			_putchar(*letters);
+			_putchar(letters);
 		}
-		putchar(i);
+		putchar('\n');
 	}
-	putchar('\n');
 }

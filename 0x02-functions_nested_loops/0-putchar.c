@@ -1,6 +1,5 @@
 #include "main.h"
 
-int _putchar(char c);
 /**
  * main - Will print _putchar using putchar function
  * Return: 0 on success. End program.

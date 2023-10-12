@@ -6,5 +6,7 @@
 #include <time.h>
 #include <unistd.h>
 
+void print_alphabet(void);
+
 
 #endif

@@ -1,10 +1,9 @@
 # 0x13. C - More singly linked lists
-## * C
-## * Algorithm
-## * Data structure
+## - C
+## - Algorithm
+## - Data structure
 
-## Please use this data structure for this project:
-
+### Please use this data structure for this project:
 /**
  * struct listint_s - singly linked list
  * @n: integer
